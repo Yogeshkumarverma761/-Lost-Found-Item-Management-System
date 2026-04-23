@@ -120,7 +120,7 @@ const Dashboard = () => {
                 ))}
             </div>
             {items.length === 0 && (
-                <div style={{ textAlign: 'center', marginTop: '100px', color: var(--text-muted) }}>
+                <div style={{ textAlign: 'center', marginTop: '100px', color: 'var(--text-muted)' }}>
                     <p>No items reported yet. Be the first to report!</p>
                 </div>
             )}
